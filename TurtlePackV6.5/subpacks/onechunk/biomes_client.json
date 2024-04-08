@@ -1,0 +1,7 @@
+{
+  "biomes": {
+    "default": {
+      "fog_identifier": "turtle:un_chunk_putos"
+    }
+    }
+  }

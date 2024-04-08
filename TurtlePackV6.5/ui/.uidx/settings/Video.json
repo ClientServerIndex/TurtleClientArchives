@@ -1,0 +1,229 @@
+{"namespace":"video",
+
+"video_button@settings_common.section_toggle_base":{
+"$toggle_view_binding_name":"video_button_toggle",
+"$glyph_texture":"textures/ui/video_glyph",
+"$glyph_color_texture":"textures/ui/video_glyph_color",
+"$glyph_size":[15,12],
+"$button_text":"video.settings",
+"$toggle_property_bag":{
+"#panel_title":"video.settings"
+}
+},
+
+
+
+"video_section":{
+"type":"stack_panel",
+"size":["100%","100%c"],
+"anchor_from":"top_left",
+"anchor_to":"top_left",
+"bindings":[
+{
+"binding_type":"view",
+"source_control_name":"video_button_toggle",
+"source_property_name":"#toggle_state",
+"target_property_name":"#visible"
+}
+],
+    "controls": [
+      {
+        "brightness_slider@settings_common.option_slider": {
+          "ignored": "($is_holographic)",
+          "$option_label": "#gamma_slider_label",
+          "$slider_name": "gamma",
+          "$slider_value_binding_name": "#gamma",
+          "$option_enabled_binding_name": "#gamma_enabled",
+          "$focus_override_up": "FOCUS_OVERRIDE_STOP",
+          "$label_bindings": [
+            {
+              "binding_name": "#gamma_slider_label"
+            }
+          ]
+        }
+      },
+      {
+        "render_distance_slider@settings_common.option_slider": {
+          "ignored": "($is_holographic)",
+          "$option_label": "#render_distance_slider_label",
+          "$slider_name": "render_distance",
+          "$slider_value_binding_name": "#render_distance",
+          "$option_enabled_binding_name": "#render_distance_enabled",
+          "$slider_steps_binding_name": "#render_distance_steps",
+          "$label_bindings": [
+            {
+              "binding_name": "#render_distance_slider_label"
+            }
+          ]
+        }
+      },
+      {
+"max_framerate_slider@settings_common.option_slider": {
+"$option_label": "#max_framerate_slider_label",
+"$slider_name": "max_framerate",
+"$slider_value_binding_name": "#max_framerate",
+"$slider_tts_text_value": "#max_framerate_text_value",
+"$option_enabled_binding_name": "#max_framerate_enabled",
+"$slider_steps_binding_name": "#max_framerate_steps",
+"$label_bindings": [
+{
+"binding_name": "$option_label"
+}
+]
+}
+},
+      {
+        "view_bobbing_toggle@settings_common.option_toggle": {
+          "$option_label": "options.viewBobbing",
+          "$option_binding_name": "#view_bobbing",
+          "$option_enabled_binding_name": "#view_bobbing_enabled",
+          "$toggle_name": "view_bobbing"
+        }
+      },
+      {
+        "msaa_slider@settings_common.option_slider": {
+          "$option_label": "#msaa_slider_label",
+          "$slider_name": "msaa",
+          "$slider_value_binding_name": "#msaa",
+          "$option_enabled_binding_name": "#msaa_enabled",
+          "$slider_steps_binding_name": "#msaa_steps",
+          "$label_bindings": [
+            {
+              "binding_name": "#msaa_slider_label"
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#show_msaa",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "raytracing_render_distance_slider@settings_common.option_slider": {
+        
+          "$option_label": "#raytracing_render_distance_slider_label",
+          "$slider_name": "raytracing_render_distance",
+          "$slider_value_binding_name": "#raytracing_render_distance",
+          "$slider_tts_text_value": "#raytracing_render_distance_text_value",
+          "$option_enabled_binding_name": "#raytracing_render_distance_enabled",
+          "$slider_steps_binding_name": "#raytracing_render_distance_steps",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ],
+          "controls": [
+            {
+              "rtx_render_distance_warning@general_section.rtx_render_distance_warning": {}
+            },
+            {
+              "option_generic_core@settings_common.option_generic_core": {}
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#show_raytracing_render_distance",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "texel_anti_aliasing_toggle@settings_common.option_toggle": {
+          "$option_label": "options.texelAA",
+          "$option_binding_name": "#texel_aa",
+          "$option_enabled_binding_name": "#texel_aa_enabled",
+          "$toggle_name": "texel_aa"
+        }
+      },
+      {
+        "fancy_clouds_toggle_9@settings_common.option_toggle": {
+          "$option_label": "options.fancyskies",
+          "$option_binding_name": "#fancy_skies",
+          "$option_enabled_binding_name": "#fancy_skies_enabled",
+          "$toggle_name": "fancy_skies"
+        }
+      },
+      {
+        "render_clouds_toggle_10@settings_common.option_toggle": {
+          "$option_label": "options.renderclouds",
+          "$option_binding_name": "#render_clouds",
+          "$option_enabled_binding_name": "#fancy_skies",
+          "$toggle_name": "render_clouds"
+        }
+      },
+      {
+        "fancy_bubbles_toggle@settings_common.option_toggle": {
+          "$option_label": "options.bubbleparticles",
+          "$option_binding_name": "#bubble_particles",
+          "$option_enabled_binding_name": "#bubble_particles_enabled",
+          "$toggle_name": "bubble_particles"
+        }
+      },
+      {
+        "smooth_lighting_toggle_11@settings_common.option_toggle": {
+          "ignored": "($is_holographic)",
+          "$option_label": "options.smooth_lighting",
+          "$option_binding_name": "#smooth_lighting",
+          "$option_enabled_binding_name": "#smooth_lighting_enabled",
+          "$toggle_name": "smooth_lighting"
+        }
+      },
+      {
+        "graphics_toggle_12@settings_common.option_toggle": {
+          "$option_label": "options.graphics",
+          "$option_binding_name": "#graphics_toggle",
+          "$option_enabled_binding_name": "#graphics_toggle_enabled",
+          "$toggle_name": "graphics_toggle"
+        }
+      },
+      {
+        "fancy_leaves_toggle@settings_common.option_toggle": {
+          "ignored": "($pocket_edition or $console_edition)",
+          "$option_label": "options.transparentleaves",
+          "$option_binding_name": "#transparent_leaves",
+          "$option_enabled_binding_name": "#transparent_leaves_enabled",
+          "$toggle_name": "transparent_leaves"
+        }
+      },
+      {
+        "upscaling_toggle@settings_common.option_toggle": {
+          "$option_label": "options.upscaling",
+          "$option_binding_name": "#graphics_upscaling",
+          "$option_enabled_binding_name": "#graphics_upscaling_enabled",
+          "$toggle_name": "graphics_upscaling",
+          "controls": [
+            {
+              "rtx_disabled_option_upsell@general_section.rtx_disabled_option_upsell": {
+                "$rtx_disabled_option_upsell_visible": "#rtx_upscale_disabled_option_upsell_visible",
+                "$rtx_disabled_option_is_hovered_button_event": "button.rtx_upscale_disabled_option_is_hovered",
+                "$rtx_disabled_option_upsell_tooltip_visible": "#rtx_upscale_disabled_option_upsell_tooltip_visible"
+              }
+            },
+            {
+              "option_generic_core@settings_common.option_generic_core": {}
+            }
+          ]
+        }
+      },
+      {
+        "raytracing_toggle@settings_common.option_toggle": {
+          "$option_label": "options.raytracing",
+          "$option_binding_name": "#raytracing",
+          "$option_enabled_binding_name": "#raytracing_enabled",
+          "$toggle_name": "raytracing",
+          "controls": [
+            {
+              "rtx_disabled_option_upsell@general_section.rtx_disabled_option_upsell": {}
+            },
+            {
+              "option_generic_core@settings_common.option_generic_core": {}
+            }
+          ]
+        }
+      }
+    ]
+}
+}

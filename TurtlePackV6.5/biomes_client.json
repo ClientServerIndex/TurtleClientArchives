@@ -1,0 +1,12 @@
+{
+    "biomes":{
+          "default" : {
+         "fog_color" : "#ABD2FF",
+         "fog_identifier" : "turtle:fog_default",
+"wwater_fog_color":"#991A00",
+         "water_fog_distance" : 1500,
+         "water_surface_color" : "#44AFF5",
+         "water_surface_transparency" : 0.3
+      }
+    }
+}

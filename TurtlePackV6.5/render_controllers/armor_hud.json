@@ -1,0 +1,67 @@
+{
+"format_version" : "1.8.0",
+"render_controllers" : {
+
+"controller.render.empty_helmet" : {
+"geometry" : "Geometry.casco_geo",
+"materials" : [{"*": "Material.default"}],
+"textures" : [
+"q.armor_texture_slot(0) == 0 ? texture.leather_helmet : (q.armor_texture_slot(0) == 1 ? texture.chainmail_helmet : (q.armor_texture_slot(0) == 2 ? texture.iron_helmet : (q.armor_texture_slot(0) == 3 ? texture.diamond_helmet : (q.armor_texture_slot(0) == 4 ? texture.gold_helmet : (q.armor_texture_slot(0) == 6 ? texture.turtle_helmet : (q.armor_texture_slot(0) == 7 ? texture.netherite_helmet : texture.empty_helmet))))))"],
+
+"overlay_color" : {
+"r" : "v.casco_encantado ? 0.4 : 0.0",
+"g" : 0.0,
+"b" : "v.casco_encantado",
+"a" : "v.casco_encantado ? 0.05 * math.cos(q.life_time * 425.0) + 0.25 : 0.0"
+},
+"light_color_multiplier" : "v.casco_encantado ? 0.05 * -math.cos(q.life_time * 425) + 2 : 1",
+"ignore_lighting" : true
+},
+
+"controller.render.empty_chestplate" : {
+"geometry" : "Geometry.camisa_geo",
+"materials" : [{"*": "Material.default"}],
+"textures" : [
+"q.armor_texture_slot(1) == 0 ? texture.leather_chestplate : (q.armor_texture_slot(1) == 1 ? texture.chainmail_chestplate : (q.armor_texture_slot(1) == 2 ? texture.iron_chestplate : (q.armor_texture_slot(1) == 3 ? texture.diamond_chestplate : (q.armor_texture_slot(1) == 4 ? texture.gold_chestplate : (q.armor_texture_slot(1) == 5 ? texture.elytra : (q.armor_texture_slot(1) == 7 ? texture.netherite_chestplate : texture.empty_chestplate))))))"],
+"overlay_color" : {
+"r" : "v.camisa_encantado ? 0.5 : 0.0",
+"g" : 0.0,
+"b" : "v.camisa_encantado",
+"a" : "v.camisa_encantado ? 0.05 * math.cos(q.life_time * 425.0) + 0.25 : 0.0"
+},
+"light_color_multiplier" : "v.camisa_encantado ? 0.05 * -math.cos(q.life_time * 425) + 2 : 1",
+"ignore_lighting" : true
+},
+
+
+
+
+"controller.render.empty_leggings" : {
+"geometry" : "Geometry.pantalones_geo",
+"materials" : [{"*": "Material.default"}],
+"textures" : ["q.armor_texture_slot(2) == 0 ? texture.leather_leggings : (q.armor_texture_slot(2) == 1 ? texture.chainmail_leggings : (q.armor_texture_slot(2) == 2 ? texture.iron_leggings : (q.armor_texture_slot(2) == 3 ? texture.diamond_leggings : (q.armor_texture_slot(2) == 4 ? texture.gold_leggings : (q.armor_texture_slot(2) == 7 ? texture.netherite_leggings : texture.empty_leggings)))))"],
+"overlay_color" : {
+"r" : "v.pantalon_encantado ? 0.4 : 0.0",
+"g" : 0.0,
+"b" : "v.pantalon_encantado",
+"a" : "v.pantalon_encantado ? 0.05 * math.cos(q.life_time * 425.0) + 0.25 : 0.0"
+},
+"light_color_multiplier" : "v.pantalon_encantado ? 0.05 * -math.cos(q.life_time * 425) + 2 : 1",
+"ignore_lighting" : true
+},
+
+"controller.render.empty_boots" : {
+"geometry" : "Geometry.botas_geo",
+"materials" : [{"*": "Material.default"}],
+"textures" : ["q.armor_texture_slot(3) == 0 ? texture.leather_boots : (q.armor_texture_slot(3) == 1 ? texture.chainmail_boots : (q.armor_texture_slot(3) == 2 ? texture.iron_boots : (q.armor_texture_slot(3) == 3 ? texture.diamond_boots : (q.armor_texture_slot(3) == 4 ? texture.gold_boots : (q.armor_texture_slot(3) == 7 ? texture.netherite_boots : texture.empty_leggings)))))"],
+"overlay_color" : {
+"r" : "v.botas_encantado ? 0.4 : 0.0",
+"g" : 0.0,
+"b" : "v.botas_encantado",
+"a" : "v.botas_encantado ? 0.05 * math.cos(q.life_time * 425.0) + 0.25 : 0.0"
+},
+"light_color_multiplier" : "v.botas_encantado ? 0.05 * -math.cos(q.life_time * 425) + 2 : 1",
+"ignore_lighting" : true
+}
+}
+}

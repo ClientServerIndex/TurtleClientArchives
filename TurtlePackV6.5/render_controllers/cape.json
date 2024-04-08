@@ -1,0 +1,19 @@
+{
+"format_version":"1.8.0",
+"render_controllers":{
+
+
+"controller.render.cape":{
+"geometry":"Geometry.cape",
+"materials":[{"*":"Material.cape"}],
+"textures":["Texture.cape"],
+"is_hurt_color": {},
+"on_fire_color": {},
+"light_color_multiplier":1,
+"ignore_lighting":true,
+"part_visibility":[
+{"cape":"(q.armor_texture_slot(1) != 5) && (!v.is_first_person || v.is_paperdoll) && (!v.map_face_icon)"}
+]
+}
+}
+}

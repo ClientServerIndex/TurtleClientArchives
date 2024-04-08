@@ -1,0 +1,59 @@
+{
+    "namespace":"turtlehud",
+    
+    
+    
+    "turtlehud":{
+        "type":"panel",
+        "size":["100%","100%"],
+        "controls":[
+{
+"compass@beacon.item_renderer":{
+"offset":[0,0],
+"anchor_to":"bottom_left",
+"anchor_from":"bottom_left",
+"size":[16,16],
+"property_bag":{
+"#item_id_aux":22609920
+}
+}
+},
+{
+"clock@beacon.item_renderer":{
+"offset":[18,0],
+"anchor_to":"bottom_left",
+"anchor_from":"bottom_left",
+"size":[16,16],
+"property_bag":{
+"#item_id_aux":22740992
+}
+}
+},
+{
+"armorhud@turtle_mods.armorhud":{
+
+}
+},
+{
+"direction@turtle_mods.directionhud":{
+
+}
+},
+{
+"statushud@turtle_mods.statushud":{
+
+}
+},
+{
+"offhand_items@turtle_mods.offhand_items":{
+
+}
+},
+{
+"mainhand_items@turtle_mods.mainhand_items":{
+
+}
+}
+]
+    }
+}

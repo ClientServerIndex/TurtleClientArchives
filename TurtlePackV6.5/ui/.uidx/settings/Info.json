@@ -1,0 +1,657 @@
+{ "namespace":"info",
+
+"info_button@settings_common.section_toggle_base": {
+"$toggle_view_binding_name": "info_button_toggle",
+"$glyph_texture": "textures/uidx/glyphs/logo1",
+"$glyph_color_texture": "textures/uidx/glyphs/logo",
+"$glyph_size": [ 17, 17 ],
+"$button_text": "client.name",
+"$toggle_property_bag": {
+"#panel_title": "§l§aTurtle§bPack"
+}
+},
+
+"info": {
+"type": "stack_panel",
+"size": [ "100%", "100%c" ],
+"anchor_from": "top_left",
+"anchor_to": "top_left",
+"bindings": [
+{
+"binding_type": "view",
+"source_control_name": "info_button_toggle",
+"source_property_name": "#toggle_state",
+"target_property_name": "#visible"
+}
+],
+"controls": [
+{
+"header1@turtle_assets.header": {
+"$text": "§lCreator Info "
+}
+},
+{
+"creatorlabel1@turtle_assets.info_label":{
+"text":"§lMade By : Chixuty"
+}
+},
+{
+"creatorlabel2@turtle_assets.info_label":{
+"text":"§l§cYouTube :§r§lChixuty IUTU"
+}
+},
+{
+"creatorlabel3@turtle_assets.info_label":{
+"text":"§l§1Twitter§f : §l@Chixuty1"
+}
+},
+{
+"creatorlabel4@turtle_assets.info_label":{
+"text":"§l§9Discord§f : §lChixuty §r§7#0001"
+}
+},
+
+{
+"link@settings_common.selector_group_label":{
+"text":"§9Discord Link §r:§bhttps://discord.gg/turtleclient"
+}
+},
+{
+"dividerpanel1": {
+"type": "panel",
+"size": [ "100%", 15 ]
+}
+},
+
+{
+"header2@turtle_assets.header": {
+"$text": "§l§eCredits"
+}
+},
+{
+"creditlabel1@turtle_assets.info_label":{
+"text":"§l§bArmor Hud"
+}
+},
+{
+"creditlabel2@turtle_assets.info_label":{
+"text":"§l§cYouTube :§r§lBedezu"
+}
+},
+{
+"creditlabel3@turtle_assets.info_label":{
+"text":"§l§1Twiter§f : §l@Bedecry"
+}
+},
+{
+"creditlabel4@turtle_assets.info_label":{
+"text":"§l§9Discord§f : Bedezu §r§7#1629"
+}
+},
+{
+"dividerpanel2": {
+"type": "panel",
+"size": [ "100%", 10 ]
+}
+},
+{
+"creditlabel5@turtle_assets.info_label":{
+"text":"§l§bAnimated TNT Cosmetic"
+}
+},
+{
+"creditlabel6@turtle_assets.info_label":{
+"text":"§l§cYouTube :§r§l PiascoYt"
+}
+},
+{
+"creditlabel7@turtle_assets.info_label":{
+"text":"§l§9Discord§f : ! Dxrling§r§7#2021"
+}
+},
+{
+"dividerpanel3": {
+"type": "panel",
+"size": [ "100%", 10]
+}
+},
+{
+"notelabel@turtle_assets.info_label":{
+"text":"§c**Note The Armor Hud Was Made By Me And§b Bedezu §r§cAfter 1 Month Of Work**",
+"font_type":"MinecraftTen"
+}
+},
+{
+"dividerpanel4": {
+"type": "panel",
+"size": [ "100%", 10]
+}
+},
+{
+"creditlabel8@turtle_assets.info_label":{
+"text":"§l§bAnimated Capes"
+}
+},
+{
+"creditlabel9@turtle_assets.info_label":{
+"text":"§l§cYouTube : §r§lambient"
+}
+},
+{
+"creditlabel10@turtle_assets.info_label":{
+"text":"§l§aMcPedl:§r§b  mcpedl.com/animated-cosmetics-pack/"
+}
+},
+{
+"dividerpanel5": {
+"type": "panel",
+"size": [ "100%", 10]
+}
+},
+{
+"creditlabel11@turtle_assets.info_label":{
+"text":"§l§bChat Animations Extension"
+}
+},
+{
+"creditlabel12@turtle_assets.info_label":{
+"text":"§l§cYouTube : §r§lMrD"
+}
+},
+{
+"creditlabel13@turtle_assets.info_label":{
+"text":"§l§9Discord:§r§l MrD§r§7#4386"
+}
+},
+{
+"dividerpanel6": {
+"type": "panel",
+"size": [ "100%", 10]
+}
+},
+{
+"creditlabel14@turtle_assets.info_label":{
+"text":"§l§bMusic Player"
+}
+},
+{
+"creditlabel15@turtle_assets.info_label":{
+"text":"§l§cYouTube : §r§lKryston"
+}
+},
+{
+"creditlabel16@turtle_assets.info_label":{
+"text":"§l§9Discord:§r§l Kryston§r§7#6047"
+}
+},
+{
+"dividerpanel5": {
+"type": "panel",
+"size": [ "100%", 5]
+}
+},
+{
+"dividerpanel7": {
+"type": "panel",
+"size": [ "100%", 10]
+}
+},
+{
+"creditlabel14@turtle_assets.info_label":{
+"text":"§l§bPotions"
+}
+},
+{
+"creditlabel15@turtle_assets.info_label":{
+"text":"§l§cYouTube : §r§lLodeStar Yt"
+}
+},
+{
+"creditlabel16@turtle_assets.info_label":{
+"text":" "
+}
+},
+{
+"dividerpanel8": {
+"type": "panel",
+"size": [ "100%", 5]
+}
+},
+{
+"infolabel1@turtle_assets.info_label":{
+"font_size":"large",
+"shadow":true,
+"anchor_from":"center",
+"anchor_to":"center",
+"text_alignment": "center",
+"text":"ccont.1"
+}
+},
+{
+"header3@turtle_assets.header": {
+"$text": "cconth.2"
+}
+},
+{
+"infolabel3@turtle_assets.info_label":{
+"text":"ccont.3"
+}
+},
+{
+"infolabel4@turtle_assets.info_label":{
+"text":"ccont.4"
+}
+},
+{
+"infolabel5@turtle_assets.info_label":{
+"text":"ccont.5"
+}
+},
+{
+"infolabel6@turtle_assets.info_label":{
+"text":"ccont.6"
+}
+},
+{
+"infolabel7@turtle_assets.info_label":{
+"text":"ccont.7"
+}
+},
+{
+"infolabel8@turtle_assets.info_label":{
+"text":"ccont.8"
+}
+},
+{
+"infolabel9@turtle_assets.info_label":{
+"text":"ccont.9"
+}
+},
+{
+"infolabel10@turtle_assets.info_label":{
+"text":"ccont.10"
+}
+},
+{
+"infolabel11@turtle_assets.info_label":{
+"text":"ccont.11"
+}
+},
+{
+"infolabel12@turtle_assets.info_label":{
+"text":"ccont.12"
+}
+},
+{
+"infolabel13@turtle_assets.info_label":{
+"text":"ccont.13"
+}
+},
+{
+"infolabel14@turtle_assets.info_label":{
+"text":"ccont.14"
+}
+},
+{
+"infolabel15@turtle_assets.info_label":{
+"text":"ccont.15"
+}
+},
+{
+"infolabel16@turtle_assets.info_label":{
+"text":"ccont.16"
+}
+},
+{
+"infolabel17@turtle_assets.info_label":{
+"text":"ccont.17"
+}
+},
+{
+"infolabel18@turtle_assets.info_label":{
+"text":"ccont.18"
+}
+},
+{
+"infolabel19@turtle_assets.info_label":{
+"text":"ccont.19"
+}
+},
+{
+"infolabel20@turtle_assets.info_label":{
+"text":"ccont.20"
+}
+},
+{
+"infolabel21@turtle_assets.info_label":{
+"text":"ccont.21"
+}
+},
+{
+"infolabel22@turtle_assets.info_label":{
+"text":"ccont.22"
+}
+},
+{
+"infolabel23@turtle_assets.info_label":{
+"text":"ccont.23"
+}
+},
+{
+"infolabel24@turtle_assets.info_label":{
+"text":"ccont.24"
+}
+},
+{
+"infolabel25@turtle_assets.info_label":{
+"text":"ccont.25"
+}
+},
+{
+"infolabel26@turtle_assets.info_label":{
+"text":"ccont.26"
+}
+},
+{
+"infolabel27@turtle_assets.info_label":{
+"text":"ccont.27"
+}
+},
+{
+"infolabel28@turtle_assets.info_label":{
+"text":"ccont.28"
+}
+},
+{
+"infolabel29@turtle_assets.info_label":{
+"text":"ccont.29"
+}
+},
+{
+"infolabel30@turtle_assets.info_label":{
+"text":"ccont.30"
+}
+},
+{
+"header4@turtle_assets.header": {
+"$text": "cconth.31"
+}
+},
+{
+"infolabel32@turtle_assets.info_label":{
+"text":"ccont.32"
+}
+},
+{
+"infolabel33@turtle_assets.info_label":{
+"text":"ccont.33"
+}
+},
+{
+"infolabel34@turtle_assets.info_label":{
+"text":"ccont.34"
+}
+},
+{
+"infolabel35@turtle_assets.info_label":{
+"text":"ccont.35"
+}
+},
+{
+"infolabel36@turtle_assets.info_label":{
+"text":"ccont.36"
+}
+},
+{
+"infolabel37@turtle_assets.info_label":{
+"text":"ccont.37"
+}
+},
+{
+"infolabel38@turtle_assets.info_label":{
+"text":"ccont.38"
+}
+},
+{
+"infolabel39@turtle_assets.info_label":{
+"text":"ccont.39"
+}
+},
+{
+"infolabel40@turtle_assets.info_label":{
+"text":"ccont.40"
+}
+},
+{
+"infolabel41@turtle_assets.info_label":{
+"text":"ccont.41"
+}
+},
+{
+"infolabel42@turtle_assets.info_label":{
+"text":"ccont.42"
+}
+},
+{
+"header5@turtle_assets.header": {
+"$text": "cconth.43"
+}
+},
+{
+"infolabel43@turtle_assets.info_label":{
+"text":"ccont.43"
+}
+},
+{
+"infolabel44@turtle_assets.info_label":{
+"text":"ccont.44"
+}
+},
+{
+"infolabel45@turtle_assets.info_label":{
+"text":"ccont.45"
+}
+},
+{
+"infolabel46@turtle_assets.info_label":{
+"text":"ccont.46"
+}
+},
+{
+"infolabel47@turtle_assets.info_label":{
+"text":"ccont.47"
+}
+},
+{
+"infolabel48@turtle_assets.info_label":{
+"text":"ccont.48"
+}
+},
+{
+"infolabel49@turtle_assets.info_label":{
+"text":"ccont.49"
+}
+},
+{
+"infolabel50@turtle_assets.info_label":{
+"text":"ccont.50"
+}
+},
+{
+"infolabel51@turtle_assets.info_label":{
+"text":"ccont.51"
+}
+},
+{
+"infolabel52@turtle_assets.info_label":{
+"text":"ccont.52"
+}
+},
+{
+"infolabel53@turtle_assets.info_label":{
+"text":"ccont.53"
+}
+},
+{
+"infolabel54@turtle_assets.info_label":{
+"text":"ccont.54"
+}
+},
+{
+"infolabel55@turtle_assets.info_label":{
+"text":"ccont.55"
+}
+},
+{
+"infolabel56@turtle_assets.info_label":{
+"text":"ccont.56"
+}
+},
+{
+"infolabel57@turtle_assets.info_label":{
+"text":"ccont.57"
+}
+},
+{
+"infolabel58@turtle_assets.info_label":{
+"text":"ccont.58"
+}
+},
+{
+"header6@turtle_assets.header": {
+"$text": "cconth.59"
+}
+},
+{
+"infolabel60@turtle_assets.info_label":{
+"text":"ccont.60"
+}
+},
+{
+"infolabel61@turtle_assets.info_label":{
+"text":"ccont.61"
+}
+},
+{
+"infolabel62@turtle_assets.info_label":{
+"text":"ccont.62"
+}
+},
+{
+"infolabel63@turtle_assets.info_label":{
+"text":"ccont.63"
+}
+},
+{
+"infolabel64@turtle_assets.info_label":{
+"text":"ccont.64"
+}
+},
+{
+"header7@turtle_assets.header": {
+"$text": "cconth.65"
+}
+},
+{
+"infolabel66@turtle_assets.info_label":{
+"text":"ccont.66"
+}
+},
+{
+"infolabel67@turtle_assets.info_label":{
+"text":"ccont.67"
+}
+},
+{
+"infolabel68@turtle_assets.info_label":{
+"text":"ccont.68"
+}
+},
+{
+"infolabel69@turtle_assets.info_label":{
+"text":"ccont.69"
+}
+},
+{
+"infolabel70@turtle_assets.info_label":{
+"text":"ccont.70"
+}
+},
+{
+"infolabel71@turtle_assets.info_label":{
+"text":"ccont.71"
+}
+},
+{
+"infolabel72@turtle_assets.info_label":{
+"text":"ccont.72"
+}
+},
+{
+"infolabel73@turtle_assets.info_label":{
+"text":"ccont.73"
+}
+},
+{
+"infolabel74@turtle_assets.info_label":{
+"text":"ccont.74"
+}
+},
+{
+"infolabel75@turtle_assets.info_label":{
+"text":"ccont.75"
+}
+},
+{
+"infolabel76@turtle_assets.info_label":{
+"text":"ccont.76"
+}
+},
+{
+"infolabel77@turtle_assets.info_label":{
+"text":"ccont.77"
+}
+},
+{
+"infolabel78@turtle_assets.info_label":{
+"text":"ccont.78"
+}
+},
+{
+"infolabel79@turtle_assets.info_label":{
+"text":"ccont.79"
+}
+},
+{
+"infolabel80@turtle_assets.info_label":{
+"text":"ccont.80"
+}
+},
+{
+"infolabel81@turtle_assets.info_label":{
+"text":"ccont.81"
+}
+},
+{
+"infolabel82@turtle_assets.info_label":{
+"text":"ccont.82"
+}
+},
+{
+"infolabel83@turtle_assets.info_label":{
+"text":"ccont.83"
+}
+},
+{
+"infolabel84@turtle_assets.info_label":{
+"text":"ccont.84"
+}
+},
+{
+"infolabel85@turtle_assets.info_label":{
+"text":"ccont.85"
+}
+}
+]
+}
+}

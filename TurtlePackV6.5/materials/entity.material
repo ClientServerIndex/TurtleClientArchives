@@ -1,0 +1,21 @@
+{
+"materials":{
+"version":"1.0.0",
+
+
+"xray:entity":{
+"+states":["Blending" ],
+"+defines":["ALPHA_TEST"],
+
+"vertexShader":"shaders/chest.vertex",
+"vrGeometryShader":"shaders/entity.geometry",
+"fragmentShader":"shaders/chest.fragment",
+
+
+"depthFunc":"Always"
+
+}
+}
+}
+
+//*alphatestsoitdoesntshowblackspotsontheshulkerboxes

@@ -1,0 +1,15 @@
+
+{ 
+"format_version": "1.8.0", 
+"render_controllers": { 
+"controller.render.cosmetic.bandana": { 
+"textures": [ "Texture.bandana" ], 
+"geometry": "Geometry.bandana", 
+"is_hurt_color": {},
+"on_fire_color": {},
+"light_color_multiplier":1,
+"ignore_lighting":true,
+"materials": [ { "*": "Material.default" } ]
+}
+} 
+}
