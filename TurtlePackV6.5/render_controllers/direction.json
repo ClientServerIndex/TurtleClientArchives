@@ -1,0 +1,27 @@
+
+{ 
+"format_version": "1.8.0", 
+"render_controllers": {
+    
+"controller.render.direction":{
+"arrays":{
+"textures":{
+"array.direction":[
+"Texture.none",
+"Texture.none",
+"Texture.north",
+"Texture.south",
+"Texture.west",
+"Texture.east"
+]
+}
+},
+"geometry":"Geometry.direction",
+"materials":[{"*":"Material.blend"}],
+"textures":["array.direction[q.cardinal_facing_2d]"],
+"is_hurt_color": {},
+"on_fire_color": {},
+"ignore_lighting":true
+}
+}
+}

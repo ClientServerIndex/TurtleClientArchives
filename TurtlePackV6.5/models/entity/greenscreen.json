@@ -1,0 +1,29 @@
+{
+"format_version": "1.12.0",
+"minecraft:geometry": [
+{
+"description": {
+"identifier": "geometry.green",
+"texture_width": 16,
+"texture_height": 16,
+"visible_bounds_width": 18,
+"visible_bounds_height": 22,
+"visible_bounds_offset": [0, 6, 0]
+},
+"bones": [
+{
+"name": "green",
+"pivot": [0, 0, 0],
+"cubes": [
+{"origin": [-128, 0, 128], "size": [256, 256, 1], "uv": [0, 0]},
+{"origin": [-128, 0, -128], "size": [256, 256, 1], "uv": [0, 0]},
+{"origin": [128, 0, -128], "size": [0, 256, 256], "uv": [0, 0]},
+{"origin": [-128, 0, -128], "size": [0, 256, 256], "uv": [0, 0]},
+{"origin": [-128, 256, -128], "size": [256, 0, 256], "uv": [0, 0]},
+{"origin": [-128, 0, -128], "size": [256, 0, 256], "uv": [0, 0]}
+]
+}
+]
+}
+]
+}

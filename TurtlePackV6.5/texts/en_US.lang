@@ -1,0 +1,150 @@
+
+
+client.name=§l§aTurtle §bPack
+//Settings Sections//
+
+video.settings=§lVideo Settings
+player.settings=§lPlayer Settings
+interface.settings=§lInterface Settings
+client.features=§lPack Info
+creator.info=§lCreator Info
+packs.section=§lResource Packs
+keyboard.section=§lKeyboard & Mouse
+controller.section=§lController Settings
+touch.section=§lTouch Settings
+profile.section=§lProfile & Settings 
+storage.section=§lStorage
+sound.section=§lSound Settings 
+language.section=§lLanguage
+quick.settings=Quick Settings
+video.section=§lVideo
+mods.section=Mods 
+
+dev.settings=Developer Settings
+
+//Inventory//
+inventory.health=§l§cHealth
+inventory.armor=§l§7Armor
+inventory.hunger=§l§6Hunger
+
+options.maxFramerate=Frames Per Second(FPS)
+options.maxFramerateFormat=§b %s 
+
+
+map.position=§cX§aY§3Z §r: %s , %s , %s
+accessibility.chat.howtoopen=[§l§6Game§r] §l§aTurtle§bPack
+
+
+mod.label0=§aHow To Add Custom Music
+mod.label1=§eGo To Any Website To Convert Your Song To .ogg File, When File Is Downloaded Move Your Song To §bgames/mojang/resourcespacks/§cTurtlePack§b/sounds/custom   §eAnd Move It There And Rename It To §9Music_1 §e Or The Number Following.
+
+mod.label2=§aHow To Active FreeCam
+mod.label3=§eHold A §6Arrow§e In Your Left Hand And Go Into Third  Person.
+
+mod.label4=§aHow To Have A Custom Name Tag
+mod.label5=§eMake Your Image, And Paste It To §bgames/mojang/resourcepacks/§cTurtleClient§b/textures/cosmetics §e And Rename It To §dTag
+
+mod.label6=§aHow To Activate GreenScreen
+mod.label7=§eEquip A §6FireWork Rocket §eIn Your Offhand Then Sneak
+
+enchantment.level.1= §l§a1§r
+enchantment.level.10= §l§a10§r
+enchantment.level.2= §l§a2§r
+enchantment.level.3= §l§a3§r
+enchantment.level.4= §l§a4§r
+enchantment.level.5= §l§a5§r
+enchantment.level.6= §l§a6§r
+enchantment.level.7= §l§a7§r
+enchantment.level.8= §l§a8§r
+enchantment.level.9= §l§a9§r
+
+
+
+
+
+ccont.1=Features
+cconth.2=§a Turtle §bPack §cv1 & 2
+ccont.3=§e  -Detailed Position Text
+ccont.4=§e  -Added Quickcraft
+ccont.5=§e  -Invisible Inventoy Button 
+ccont.6=§e  -Invisible Item Background
+ccont.7=§e  -25% Opacity D-Pad§c (Removed)
+ccont.8=§e  -Better Wool Blocks
+ccont.9=§e  -Full Bright §a(Extension)
+ccont.10=§e  -See Under Lava
+ccont.11=§e  -See Under Water§a (Extension)
+ccont.12=§e  -Short Swords§c (Removed)
+ccont.13=§e  -Outlined Ores
+ccont.14=§e  -Short Grass
+ccont.15=§e  -Grass Block Side Filled
+ccont.16=§e  -Low Fire
+ccont.17=§e  -Able To See What Villagers Are Going To Sell After
+ccont.18=§e  -Quick Chat
+ccont.19=§e  -No Breaking Particles
+ccont.20=§e  -Better CrossHair
+ccont.21=§e  -Player Render
+ccont.22=§e  -Client Debug Title
+ccont.23=§e  -FPS Improvement
+ccont.24=§e  -Health & Hunger Bars On Pocket Inventory Screen
+ccont.25=§e  -Small Shield
+ccont.26=§e  -Clean Leather Armor
+ccont.27=§e  -Better Menu Panorama§c (Removed)
+ccont.28=§e  -Player Render On Chest Screen
+ccont.29=§e  -2d Clouds
+ccont.30=§e  -Better Settings Screen
+cconth.31=§a Turtle §bPack §cv3
+ccont.32=§e  -Toggle Button To Show Player On Pause Screen
+ccont.33=§e  -No Block Breaking Particles
+ccont.34=§e  -No Particles Subpack
+ccont.35=§e  -Dark Ui
+ccont.36=§e  -Better Pause Screen
+ccont.37=§e  -Client Logo On Chest Screen
+ccont.38=§e  -Potion Hud On Chest Screen
+ccont.39=§e  -Renders On Classic Inventory
+ccont.40=§e  -Client Cape
+ccont.41=§e  -Armor Grid On Bottom Left Of Pocket UI
+ccont.42=§e  -Armor Hud At Bottom Left
+cconth.43=§a Turtle§b Pack§cv4
+ccont.43=§e  -Compass On Hud Screen 
+ccont.44=§e  -SprintStatus
+ccont.45=§e  -AnimatedCapes
+ccont.46=§e  -3D Block Hitbox
+ccont.47=§e  -Bandana
+ccont.48=§e  -New Gui Texture
+ccont.49=§e  -Type Of ForceCoords§c (Removed)
+ccont.50=§e  -Armor Hud Vertical
+ccont.51=§e  -Green Biomes
+ccont.52=§e  -Full Bright Extension
+ccont.53=§e  -New Loading Screen
+ccont.54=§e  -WayPoints§c (Removed)
+ccont.55=§e  -Java Hand§c (Removed)
+ccont.56=§e  -Type Of Freecam
+ccont.57=§e  -New Breaking Animation
+ccont.58=§e  -Chest Esp §a(Extension)
+cconth.59=§a Turtle §bPack §cv5
+ccont.60=§e  -Toggleable Armor Hud
+ccont.61=§e  -Durability For Items Is not Rounded
+ccont.62=§e  -Durability Bar Always Green
+ccont.63=§e  -Smaller Chat Font
+ccont.64=§e  -Desktop Chest Screen When On Pocket§c(Removed)
+cconth.65=§a Turtle §bPack §cV6
+ccont.66=§e  -Armor Hud On Classic Chest Screen
+ccont.67=§e  -Bottom Chat
+ccont.68= §e -Progress Title When Loading A World
+ccont.69=§e  -Fixed Floating Armor Hud
+ccont.70=§e  -Cancel Button When Joining A Server
+ccont.71= §e -Detailed Icons
+ccont.72=§e  -3rd Person Crosshair
+ccont.73=§e  -Player Visible In Darkness
+ccont.74=§e  -Removes The Top Middle Beta Text
+ccont.75=§e  -Item Count In Creative
+ccont.76=§e  -3rd Person Name Tag
+ccont.77=§e  -Music Player
+ccont.78=§e  -Life Counter
+ccont.79=§e  -Better Potions
+ccont.80=§e  -Enchanted Armor Hud
+ccont.81=§e  -Offhand Slot
+ccont.82=§e  -Items In Hand §b(Swords,Axes,Pickaxes,Shovels)
+ccont.83=§e  -Toggleable Mods §b(Phones Only)
+ccont.84=§e  -Anti Weather
+ccont.85=§e  -No Fog

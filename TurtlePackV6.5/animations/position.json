@@ -1,0 +1,71 @@
+
+{
+"format_version":"1.8.0",
+"animations":{
+
+"animation.greenscreen":{
+"loop":true,
+"bones":{
+"green": {
+"position": [0,2,0],
+"rotation":[0,"-q.body_y_rotation",0],
+"scale": 0.7
+}
+
+}
+},
+"animation.player.cape":{
+"loop":true,
+"bones":{
+"cape":{
+"position":[0.0,"query.get_root_locator_offset('armor_offset.default_neck', 1)",0.0],
+"rotation":["math.clamp(-31.0 * (query.cape_flap_amount * math.sin(60) * 4.4) - math.sin(query.modified_distance_moved * 55.0) * 3.1 - 5.0, -180.0, -7.0)",0.0,"query.modified_move_speed * math.sin(-(query.body_y_rotation - query.head_y_rotation(0))) * 36.5"
+]
+}
+}
+},
+
+
+
+"animation.turtle_everything":{
+"loop":true,
+"bones":{
+"tag":{
+"rotation": [ "-query.camera_rotation(0)", "-query.body_y_rotation + query.camera_rotation(1) + 180", 0 ]
+},
+"vida1":{
+"rotation": [ "-query.camera_rotation(0)", "-query.body_y_rotation + query.camera_rotation(1) + 180", 0 ]
+},
+"casco_bone":{
+"position":[-105,"(q.is_swimming ?-18 : 0) + 1128",0]
+},
+"camisa_bone":{
+"position":[-105,"(q.is_swimming ? -18: 0) + 1113",0]
+},
+"pantalones_bone":{
+"position":[-105,"(q.is_swimming ? -18: 0) + 1098",0]
+},
+"botas_bone":{
+"position":[-105,"(q.is_swimming ? -18 :0) + 1083",0]
+},
+"main_hand":{
+"position":[-125,"(q.is_swimming ?-18 : 0) + 550",0]
+},
+"offhand_bone":{
+"position":[-125,"(q.is_swimming ? -18 : 0) + 4305",0]
+},
+"direction_bone":{
+"position":[20,"(q.is_swimming ? -18 : 0) + 2170",0],
+"scale":0.9
+},
+"status_bone":{
+"position":[130,"(q.is_swimming ? -18 : 0) + 3217",0]
+},
+"cps_bone":{
+"position":[0,"(q.is_swimming ? -18 : 0.0) ",0]
+
+}
+}
+}
+}
+}

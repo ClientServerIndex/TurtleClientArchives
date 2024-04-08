@@ -1,0 +1,16 @@
+{ 
+"format_version": "1.8.0", 
+"animations": {
+"animation.player.freelook" : {
+"loop" : true,
+"bones" : {
+"head" : {
+"rotation" : [ "v.head_y_rotation", "v.head_x_rotation", 0.0 ]
+},
+"root" : {
+"rotation" : [ 0, "variable.body_x_rotation - q.body_y_rotation", 0.0 ]
+}
+}
+}
+}
+}

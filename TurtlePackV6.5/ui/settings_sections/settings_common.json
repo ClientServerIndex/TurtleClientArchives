@@ -1,0 +1,49 @@
+{
+"namespace":"settings_common",
+
+"dynamic_dialog_screen@common.base_screen":{
+"type":"screen",
+"cache_screen":true,
+
+"button_mappings":[
+{
+"from_button_id":"button.menu_cancel",
+"to_button_id":"button.menu_exit",
+"mapping_type":"global"
+},
+{
+"from_button_id":"button.menu_tab_left",
+"to_button_id":"button.menu_tab_left",
+"mapping_type":"global",
+"scope":"view"
+},
+{
+"from_button_id":"button.menu_tab_right",
+"to_button_id":"button.menu_tab_right",
+"mapping_type":"global",
+"scope":"view"
+}
+],
+"$screen_content":"settings_common.settings_content",
+"$screen_bg_content":"settings_common.background_gradient",
+"$is_full_screen_layout":true
+},
+
+"background_gradient": {
+"type": "custom",
+"renderer": "gradient_renderer",
+"color1": [ 0,0,0,0.5],
+"color2": [ 0,0,0, 0.75],
+"ignored": "$is_holographic"
+},
+
+
+
+"settings_content@common_dialogs.main_panel_settings":{
+"size":["97%","97%"],
+"offset":[0,0],
+"$child_control":"$dialog_content",
+"$text_name":"  ",
+"$fill_alpha":0
+}
+}

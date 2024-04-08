@@ -1,0 +1,34 @@
+{
+"format_version":"1.8.0",
+"render_controllers":{
+"controller.render.player.click":{
+"arrays":{
+"textures":{
+"array.click":[
+"texture.n0",
+"Texture.n1",
+"Texture.n2",
+"Texture.n3",
+"Texture.n4",
+"Texture.n5",
+"Texture.n6",
+"Texture.n7",
+"Texture.n8",
+"Texture.n9"
+]
+}
+},
+"geometry":"Geometry.cps_geo",
+"materials":[{"*":"Material.default"}],
+"is_hurt_color": {},
+"on_fire_color": {},
+"light_color_multiplier":1,
+"ignore_lighting":true,
+"textures": [ "array.click[0 + v.attack_time]" ]
+}
+}
+}
+
+
+
+ 

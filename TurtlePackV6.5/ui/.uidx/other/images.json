@@ -1,0 +1,19 @@
+{"namespace":"images",
+
+"turtleimage": {
+"type": "image",
+"texture": "textures/glyphs/logo",
+"alpha": 1.0
+},
+"background": {
+"type": "image",
+"texture": "textures/uidx/background",
+"size":["140%","140%"],
+"alpha": 1.0
+},
+"tpack":{
+    "type": "image",
+"texture": "textures/uidx/tpack",
+"alpha": 1.0
+}
+}
